@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBloxcrossFrontend=self.webpackChunkBloxcrossFrontend||[]).push([[592],{2037:(u,l,a)=>{a.d(l,{Y:()=>t});var e=a(6895),n=a(7846),r=a(3081),o=a(4650);let t=(()=>{class _{}return _.\u0275fac=function(s){return new(s||_)},_.\u0275mod=o.oAB({type:_}),_.\u0275inj=o.cJS({imports:[e.ez,n.q,r.aw.forChild()]}),_})()}}]);
