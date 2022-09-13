@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1663103353828,
+  "timestamp": 1663112162253,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -11,20 +11,22 @@
         "ignoreVary": true
       },
       "urls": [
-        "/102.e5f89a980f1ba331.js",
+        "/341.da55b1d7e8b87d9b.js",
+        "/530.c9927a42c55cf489.js",
         "/649.e269be850025b127.js",
-        "/837.df20dbbcc622803b.js",
+        "/691.3c5741d705603d09.js",
         "/971.32fe988602cf44d0.js",
-        "/common.239577dca921a4cd.js",
         "/index.html",
-        "/main.a67d7f3bfbed7f27.js",
+        "/main.f203cb0e42daabb5.js",
         "/manifest.webmanifest",
         "/polyfills.4787b6f7d8a7d3e4.js",
-        "/runtime.2fd79cb76e815b36.js",
+        "/runtime.d4990a54fd10c643.js",
         "/scripts.c1886329ed9cf177.js",
         "/styles.ea1967489c5578af.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/static\\.vouched\\.id\\/widget\\/vouched-2\\.0\\.0\\.js"
+      ]
     },
     {
       "name": "assets",
@@ -85,11 +87,25 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "data-api",
+      "patterns": [],
+      "strategy": "freshness",
+      "maxSize": 5,
+      "maxAge": 3000000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
   "hashTable": {
-    "/102.e5f89a980f1ba331.js": "c1dbb4fdc67b9ebd0a0dda9aa8c8472dca31d954",
+    "/341.da55b1d7e8b87d9b.js": "e2987ecb389fe5cf9f1d5f356697bf5e0fcb1bd4",
+    "/530.c9927a42c55cf489.js": "953e2a1bf1bfed3119fd9876018f130fb83627ad",
     "/649.e269be850025b127.js": "5915e735a0a85a41ffd4e8d0ceb70e654ad9ada6",
-    "/837.df20dbbcc622803b.js": "81e4ae95721e14c0ebf2e895c67872b5204c2327",
+    "/691.3c5741d705603d09.js": "2ba372d7baad4e5aae3a3ef8d7412adc7de85827",
     "/971.32fe988602cf44d0.js": "4f4b792cd4426496bd462b468062b422c53f9152",
     "/assets/Errores/Errores.json": "f30e5bcacc5d16c80984b9b217593b40f9d6a050",
     "/assets/Graph/assetPrice.png": "4bd0cb92ee6ae386196197bae5503f8e6c058648",
@@ -138,12 +154,11 @@
     "/assets/images/u44.svg": "a4fe49cade5df1165e462f2706278c854dfa5e42",
     "/assets/images/undraw_profile.svg": "a7f6d3fbdfb236f0ca7d9d868441b7e9f1e74ea7",
     "/assets/images/white-logo.png": "78f8080fd0cf54f21d2d108e1fa2bbb7e0870bb3",
-    "/common.239577dca921a4cd.js": "abebde7acf920561f14d51b4e03181171bf4d87d",
-    "/index.html": "bdaf0677396000c0e25637beef12633b3c0e5b70",
-    "/main.a67d7f3bfbed7f27.js": "d81503d18ce9fb50354fbf5252f8d44e84396c7b",
+    "/index.html": "efe76c3a8947b1413d26e4641bb3ea7bedc1d1a0",
+    "/main.f203cb0e42daabb5.js": "aaf2f2ff84b14966dd2a8f57370ebdde1c9326a1",
     "/manifest.webmanifest": "e8e02828042a4819487474f895450a5676b16027",
     "/polyfills.4787b6f7d8a7d3e4.js": "2648fd5519e630dfa4a623313373115d95c1b07c",
-    "/runtime.2fd79cb76e815b36.js": "000e29bb18fc8c7b4e48ab489a58b423dc857350",
+    "/runtime.d4990a54fd10c643.js": "0a1ee70559c894551ea4f539621dccecc74fc26b",
     "/scripts.c1886329ed9cf177.js": "f62939d6db6079e01d8648c689450de7fdd9213d",
     "/styles.ea1967489c5578af.css": "8b263894df8b6e004b2f4ea35470df6cb9336350"
   },
